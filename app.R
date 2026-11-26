@@ -14,6 +14,16 @@ stop("Cannot divide by zero")
 }
 return(a / b)
 }
+
+power <- function(x, n) {
+  result <- x^n
+  return(result)
+}
+
+power(2, 3)
+# 8
+
+
 # Main execution block
 if (sys.nframe() == 0) {
 cat("Simple Calculator\n")
